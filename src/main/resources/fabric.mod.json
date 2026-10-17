@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "diamondflash",
+  "version": "${version}",
+  "name": "Diamond Flash",
+  "description": "Press ' (or run /diamondflash) to turn a 3x4 wall 4 blocks to your left into 12 diamond ores for 12 seconds.",
+  "authors": ["You"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.diamondflash.DiamondFlash"],
+    "client": ["com.example.diamondflash.client.DiamondFlashClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
